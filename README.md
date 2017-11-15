@@ -36,7 +36,14 @@ You can replace ``newproject`` with your desired project name.
     $ git push heroku master
 
     $ heroku run python manage.py migrate
-
+## But you should use github
+    $ git init
+    $ git add .
+    $ git commit -am "Initial d"
+    $ git remote add origin https://github.com/your_username/your_project.git
+    
+    Then push Deploy Button on Heroku panel ;D
+    
 See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
 
 ## Using Python 2.7? (Nah, I prefer to use py3)
